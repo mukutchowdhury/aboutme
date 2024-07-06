@@ -1,2 +1,1 @@
-# aboutme
-# index.html
+Resume plus other information

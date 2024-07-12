@@ -72,8 +72,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    flex-shrink: 0;
-    width: 100%;
 }
 
 footer p {
@@ -109,18 +107,4 @@ button.fancy-button:active {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 2rem;
-    }
 
-    .container {
-        margin: 1rem;
-        padding: 0.5rem;
-    }
-
-    button.fancy-button {
-        padding: 10px 24px;
-        font-size: 14px;
-    }
-}

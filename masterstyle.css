@@ -71,8 +71,9 @@ footer p {
     margin: 0;
 }
 
+
 button.fancy-button {
-    background: linear-gradient(to right, #4CAF50, #45a049);
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -82,18 +83,21 @@ button.fancy-button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 button.fancy-button:hover {
-    background: linear-gradient(to right, #45a049, #4CAF50);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #a777e3, #6e8efb);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15);
     transform: translateY(-2px);
 }
 
 button.fancy-button:active {
     transform: translateY(0);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
+
